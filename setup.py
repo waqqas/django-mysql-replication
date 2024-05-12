@@ -11,7 +11,7 @@ setup(
     license="MIT",
     install_requires=[
         "Django>=4.0",
-        "pymysqlreplication>01.0.8"
+        "pymysqlreplication>=1.0.8"
     ],
     extras_require={
         "dev":[
