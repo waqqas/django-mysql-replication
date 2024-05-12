@@ -11,8 +11,13 @@ setup(
     license="MIT",
     install_requires=[
         "Django>=4.0",
-        "mysqlclient>=2.2.1",
+        "pymysqlreplication>01.0.8"
     ],
+    extras_require={
+        "dev":[
+            "mysqlclient>=2.2.1",
+        ]
+    },
     python_requires='>=3.9',
     classifiers=[
         "Development Status :: 4 - Beta",

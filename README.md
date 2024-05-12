@@ -51,3 +51,7 @@ def user_added(sender, instance, *args, **kwargs):
     pass
 
 ```
+
+Run the following command to listen to DB changes
+
+`python manage.py listen`
