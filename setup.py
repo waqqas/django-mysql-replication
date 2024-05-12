@@ -2,7 +2,7 @@ from setuptools import find_packages, setup
 
 setup(
     name="django-mysql-replication",
-    version="0.1.2",
+    version="0.1.3",
     packages=find_packages(),
     description="MySQL DB change events by reading replication logs",
     author="Waqqas Jabbar",
@@ -11,7 +11,7 @@ setup(
     license="MIT",
     install_requires=[
         "Django>=4.0",
-        "pymysqlreplication>=1.0.8"
+        "mysql-replication>=1.0.8"
     ],
     extras_require={
         "dev":[
