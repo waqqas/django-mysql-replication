@@ -11,7 +11,7 @@ setup(
     license="MIT",
     install_requires=[
         "Django>=4.0",
-        "mysqlclient>=^2.2.1",
+        "mysqlclient>=2.2.1",
     ],
     python_requires='>=3.9',
     classifiers=[
